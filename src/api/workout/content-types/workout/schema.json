@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workouts",
+  "info": {
+    "singularName": "workout",
+    "pluralName": "workouts",
+    "displayName": "workouts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
